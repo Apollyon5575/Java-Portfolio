@@ -1,0 +1,5 @@
+This Java program demonstrates Object-Oriented Programming concepts such as abstraction, inheritance, polymorphism, and the use of collections. The abstract Device class represents a general electronic device with basic functions like turning on, turning off, and displaying details. Different devices inherit from this class and provide their own specific properties and behaviors.
+
+The program includes several device types such as AirConditioner, LampShade, Television, and MicrowaveOven. Each device has its own attributes (like temperature, brightness, channel, or timer) and overrides the details() method to display its unique information. A copy constructor is also shown in the LampShade class to create a duplicate object.
+
+In the main method, all devices are stored in a list and controlled using the DeviceHelper class. This helper class can turn all devices on or off at once and count how many devices are currently on. Overall, the program helps students understand how abstract classes, method overriding, object lists, and polymorphism work together in a simple smart-home device simulation.
