@@ -1,1 +1,2 @@
-This is a library system 
+This program is a simple Java application that shows how classes and objects work. The Book class is used to create book objects with information such as title, author, publish date, and current page. It also has methods to display book details, change the current page, and update the author of a book.
+In the MyBookList class, several book objects are created and displayed. Some book details are updated, such as the current page and author. The program then stores all the books in an array and checks which books were published after the year 2010. This program helps students understand basic Object-Oriented Programming concepts like object creation, method usage, and using arrays with conditions.
