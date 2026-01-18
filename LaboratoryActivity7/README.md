@@ -1,1 +1,5 @@
+This Java program simulates a simple online ordering system using Object-Oriented Programming concepts such as abstraction, inheritance, interfaces, and packages. The abstract Order class represents a general order with basic details like order ID, amount, and status. It also defines common methods that all types of orders should have, such as processing an order and displaying an order summary.
 
+The OnlineOrder class extends the Order class and implements the Payable interface. This means an online order can be processed and paid for. The Payable interface ensures that any class that implements it must provide a payment method. The program also uses an OrderStatus enum to represent different states of an order, such as pending, paid, shipped, or cancelled.
+
+In the main application, multiple online orders are created and stored in a list. Each order is processed and paid, then displayed using an iterator. Cancelled orders are removed from the list, and the remaining orders are shown at the end. This program helps students understand how abstract classes, interfaces, enums, and collections work together in a real-world online shopping scenario.
